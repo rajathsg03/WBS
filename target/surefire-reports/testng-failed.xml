@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [WBS]">
+  <test name="Login to WBS(failed)">
+    <classes>
+      <class name="org.wbs.wholesale.Login_with_valid_credentials">
+        <methods>
+          <include name="quit"/>
+          <include name="connectiongToDb"/>
+          <include name="loginToSystem"/>
+        </methods>
+      </class> <!-- org.wbs.wholesale.Login_with_valid_credentials -->
+    </classes>
+  </test> <!-- Login to WBS(failed) -->
+</suite> <!-- Failed suite [WBS] -->

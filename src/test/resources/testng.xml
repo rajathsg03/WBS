@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WBS">
+
+  <test name="APPTEST">
+    <classes>
+      <class name="org.wbs.wholesale.AppTest"/>
+    </classes>
+ </test>
+ 
+   <test name="sample test">
+    <classes>
+      <class name="org.wbs.wholesale.SampleTest"/>
+    </classes>
+ </test>
+
+   <test name="Login to WBS">
+    <classes>
+      <class name="org.wbs.wholesale.Login_with_valid_credentials"/>
+    </classes>
+ </test> 
+   
+</suite>
